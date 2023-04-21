@@ -10,5 +10,5 @@ submitBtn.addEventListener("click", function(event){
     var formatValue = formatEl.textContent
     localStorage.setItem("search-value", searchValue);
     localStorage.setItem("format-value", formatValue);
-    window.location.href = "./index.html"
+    window.location.href = "./search-results.html"
 })
